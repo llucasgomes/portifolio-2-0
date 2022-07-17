@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express();
 
-const appName = '<portifolio-2-0>'
+const appName = '<portifolio-angular>'
 
 app.use(express.static(__dirname + `/dist/${appName}`))
 
