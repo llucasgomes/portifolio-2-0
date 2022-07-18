@@ -6,3 +6,9 @@
 .color,ul li a{
   color: white;
 }
+
+@media (min-width:991px) {
+.color{
+  display: none;
+}
+}
