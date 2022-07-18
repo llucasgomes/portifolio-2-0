@@ -1,4 +1,8 @@
 .header{
   position: fixed;
   z-index: 999999;
+  color: white;
+}
+.color,ul li a{
+  color: white;
 }
