@@ -10,19 +10,22 @@
     <div class="col d-flex justify-content-center mb-4 mt-5">
       <div class="card" style="width: 18rem">
         <div class="card-body d-flex align-items-center flex-column">
-          <img
-          src="/assets/images/skills/sem-sinal.gif"
-            alt="Em breve "
-          />
+          <img src="/assets/images/skills/sem-sinal.gif" alt="Em breve " />
           <h5 class="card-title mt-2">..........</h5>
-          <p class="card-text text-center">
-            Em manutenção......
-          </p>
+          <p class="card-text text-center">Em manutenção......</p>
           <div>
-            <button type="button" class="btn btn-outline-secondary px-2" disabled>
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-2"
+              disabled
+            >
               GitHub
             </button>
-            <button type="button" class="btn btn-outline-secondary ms-1 px-3" disabled>
+            <button
+              type="button"
+              class="btn btn-outline-secondary ms-1 px-3"
+              disabled
+            >
               Page
             </button>
           </div>
@@ -32,22 +35,65 @@
     <!-- item 2 -->
     <div class="col d-flex justify-content-center mb-4 mt-5">
       <div class="card" style="width: 18rem">
-        <div class="card-body d-flex align-items-center flex-column">
+        <div
+          class="card-body d-flex align-items-center flex-column position-relative"
+        >
           <img
-          src="/assets/images/skills/sem-sinal.gif"
-            alt="Em breve "
+            src="/assets/images/skills/angular.png"
+            alt=""
+            class="badger position-absolute"
           />
-          <h5 class="card-title mt-2">..........</h5>
+          <img src="/assets/images/projects/portifolio.png" alt="Portifolio" />
+          <h5 class="card-title mt-2">Portfólio</h5>
           <p class="card-text text-center">
-            Em manutenção......
+            Contruido em Angular com Bootstrap, afins de conhecimento e
+            aprendizado
           </p>
           <div>
-            <button type="button" class="btn btn-outline-secondary px-2" disabled>
-              GitHub
-            </button>
-            <button type="button" class="btn btn-outline-secondary ms-1 px-3" disabled>
-              Page
-            </button>
+            <a
+              href="https://github.com/llucasgomes/portifolio-2-0"
+              class="btn btn-outline-secondary ms-1 px-3"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              class="btn btn-outline-secondary ms-1 px-3"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+              >Page</a
+            >
+            <!-- Modal -->
+            <div
+              class="modal fade pt-5"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog  teste">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      Opss!!!!
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                    <p class="fs-3">Algo de Errado não esta certo...</p>
+                    <img  class="w-50" src="/assets/images/algo-errado.gif" alt="Ja se encontra na Pagina">
+                    <p class="mt-4"> <br> Rssr... Você já se encontra na Página</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +103,7 @@
       <div class="card" style="width: 18rem">
         <div class="card-body d-flex align-items-center flex-column">
           <img
-          src="/assets/images/projects/calculadora.png"
+            src="/assets/images/projects/calculadora.png"
             alt="ECalculadora de IMC basica "
           />
           <h5 class="card-title mt-2">Calculadora de IMC</h5>
