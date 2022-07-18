@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portifolio-angular';
+
+  //função scrollTop ao navegar pelas page components
+  onAtive(){
+    window.scroll(0,0);
+  }
+
+
+
+
+
+
 }
