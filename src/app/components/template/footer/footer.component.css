@@ -1,15 +1,10 @@
 i{
-  color: black;
-  font-size: 40px;
+  color: white;
+  font-size: 50px;
+  padding: 0;
 }
 
 a{
   text-decoration: none;
   list-style-type: none;
-}
-.color1{
-  background-color: red;
-}
-.color2{
-  background-color: green;
 }
