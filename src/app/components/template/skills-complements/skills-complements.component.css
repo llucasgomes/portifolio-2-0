@@ -1,0 +1,18 @@
+img{
+  width: 100px;
+}
+
+.gif{
+  width: 285px;
+  height: 150px;
+}
+
+.badger{
+  z-index: 9999;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  right: -25px;
+  top: -25px;
+  object-fit: cover;
+}
